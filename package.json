@@ -1,14 +1,20 @@
 {
   "name": "yelly-time",
   "version": "1.0.0",
-  "description": "Local HTTP server bridging YellySpark to AI agent CLIs",
+  "description": "Local HTTP server by Yelly AI bridging YellySpark to AI agent CLIs",
   "main": "server.js",
+  "author": "Yelly AI <hello@yelly.ink> (https://yelly.ink/)",
+  "homepage": "https://yelly.ink/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellyloveai-ops/yelly-time.git"
+  },
   "scripts": {
     "start": "node server.js --runtime claude-code",
     "start:codex": "node server.js --runtime codex-cli",
     "start:gpt": "node server.js --runtime gpt-codex"
   },
-  "keywords": ["claude-code", "codex", "ai-agent", "tampermonkey", "yellyspark"],
+  "keywords": ["yelly", "yelly-ai", "claude-code", "codex", "ai-agent", "tampermonkey", "yellyspark"],
   "license": "Apache-2.0",
   "engines": { "node": ">=18" }
 }

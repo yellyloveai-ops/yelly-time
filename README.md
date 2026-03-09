@@ -1,5 +1,7 @@
 # yelly-time
 
+> By [Yelly AI](https://yelly.ink/)
+
 Local HTTP server that bridges the [YellySpark](https://github.com/yellyloveai-ops/userscripts) Tampermonkey script to AI agent CLIs.
 
 ## Supported Runtimes
@@ -62,3 +64,7 @@ Open **http://localhost:2026** in your browser for the Server Manager UI.
 | `POST` | `/stop` | Shutdown server |
 
 No npm dependencies — stdlib only.
+
+---
+
+&copy; 2026 [Yelly AI](https://yelly.ink/) — Apache 2.0 License
