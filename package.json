@@ -1,0 +1,14 @@
+{
+  "name": "yelly-time",
+  "version": "1.0.0",
+  "description": "Local HTTP server bridging YellySpark to AI agent CLIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --runtime claude-code",
+    "start:codex": "node server.js --runtime codex-cli",
+    "start:gpt": "node server.js --runtime gpt-codex"
+  },
+  "keywords": ["claude-code", "codex", "ai-agent", "tampermonkey", "yellyspark"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
